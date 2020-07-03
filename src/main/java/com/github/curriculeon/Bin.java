@@ -2,7 +2,7 @@ package com.github.curriculeon;
 
 public class Bin {
     private Integer faceValueToTrack;
-    private Integer numberOfOccurrences;
+    private Integer numberOfOccurrences = 0; //numberOfOccurrences must be set to 0 for tests to pass, since null constructor not used
 
     public Bin(){
         this.faceValueToTrack = 0;
